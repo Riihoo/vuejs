@@ -10,6 +10,7 @@ export default defineConfig({
     Components({ 
       dirs: ['src/components', 'src/views'], // Specify the directories to scan for components
       extensions: ['vue'], // Specify the file extensions to scan for components
+      base: "/vuejs",
      })
   ],
 
